@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+}
+[class*="col_"]{
+	float: left;
+	padding: 5px;
+}
+/*For Mobile Screen */
+	.col_m_0 {width: 12.5%;}
+	.col_m_1 {width: 25%;}
+	.col_m_2 {width: 50%;}
+	.col_m_3 {width: 75%;}
+	.col_m_4 {width: 100%;}
+
+@media screen and (min-width: 768px) {
+	.col_1 {width: 8.33%;}
+	.col_2 {width: 16.66%;}
+	.col_3 {width: 25%;}
+	.col_4 {width: 33.33%;}
+	.col_5 {width: 41.66%;}
+	.col_6 {width: 50%;}
+	.col_7 {width: 58.33%;}
+	.col_8 {width: 66.66%;}
+	.col_9 {width: 75%;}
+	.col_10 {width: 83.33%;}
+	.col_11 {width: 91.66%;}
+	.col_12 {width: 100%;}
+}
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Console";
+	font-size: 14px;
+}
+.mainDiv {
+	border: 1px solid lightgray;
+}
+.topDiv {
+	background-color: #86A1C0;
+	padding: 0px;
+	position: relative;
+}
+.centerTitle {
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	font-size: 18px;
+}
+.closeOptions {
+	float: right;
+}
+.closeOptions i {
+	float: left;
+}
+.secondTopDiv {
+	background-color: #F0F0F0;
+}
+.closeOptions .fa {
+	padding: 4px 8px;
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity: 0.5;
+}
+#closeIcon:hover {
+	opacity: 1;
+	/*background-color: #930000;*/
+}
+.closeOptions .fa:hover {
+	opacity: 1;
+	/*background-color: #3F5978;*/
+}
+#spanWithBox {
+	position: relative;
+	border: 1px solid gray;
+	background-color: white;
+	padding: 0px 5px;
+}
+#spanWithBox::after {
+	content: 'BS';
+	position: absolute;
+	top: -5%;
+	left: 100%;
+	border: 1px ridge gray;
+	padding: 0px 5px;
+}
+
+button {
+	background-color: lightgray;
+	border: 1px solid transparent;
+	transition: all 0.5s;
+	text-align: center;
+}
+button:hover {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 3px 10px rgba(0,0,0,0.19);
+}
+.secondTopDiv button {
+	float: right;
+	padding: 5px;	
+}
+.thirdTopDiv {
+	background-color: #F0F0F0;
+	border-top: 2px solid white;
+	padding: 0px;
+	border-bottom: 2px solid gray;
+}
+.thirdTopDiv span {
+	padding: 0 5px;
+	background-color: white;
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid white;
+}
+.centerDiv {
+	margin-top: 30px;
+}
+.centerDiv a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 2px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.centerDiv span {
+	float: left;
+	margin: 0 5px;
+}
+.centerDiv button {
+	padding: 5px;
+}
+.centerDiv .but1 {
+	margin-right: 10px;
+}
+.firstInnerDiv {
+	border: 1px ridge gray;
+	margin-top: 10px;
+}
+.firstInnerDiv p {
+	display: inline;
+	color: red;
+}
+.secondInnerDiv {
+	margin-right: 15px;
+}
+.secondInnerDiv a {
+	padding: 0px 5px;
+	background-color: #8080FF;
+}
+.secondInnerDiv div {
+	border: 1px outset gray;
+	height: 200px;
+}
+table {
+	border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid lightgray;
+}
+th, td {
+	padding: 0px 10px;
+}
+.thirdInnerDiv a {
+	color: red;
+}
+.thirdInnerDiv div {
+	border: 1px outset gray;
+	height: 160px;
+}
+.thirdInnerDiv p {
+	clear: both;
+	float: right;
+	margin: 5px 0px;
+}
+.fourthInnerDiv {
+	border: 1px solid black;
+	position: relative;
+	top: 225px;
+}

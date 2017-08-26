@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Test Work </title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="col_12 col_m_4 mainDiv">
+		<div class="col_12 col_m_4 topDiv">
+			<span class="centerTitle"> Pathology User: MIDAS </span>
+			<span class="closeOptions">
+				<i class="fa fa-window-minimize" style="font-size:16px; color:black;"></i>
+				<i class="fa fa-window-maximize" style="font-size:16px; color:black;"></i>
+				<i class="fa fa-close" id="closeIcon" style="font-size:16px; color:white; background-color:red;"></i>
+			</span>
+		</div>
+		<div class="col_12 col_m_4 secondTopDiv">
+			<span> Today's Date:</span> <span id="spanWithBox"> 2073/11/19 </span>
+			<button> <i class="fa fa-close fa-lg" style="color: red;"></i> Close [ESC] </button>
+		</div>
+		<div class="col_12 col_m_4 thirdTopDiv">
+			<span> Sample Collection </span>
+		</div>
+		<div class="col_12 col_m_4 centerDiv">
+			<a class="col_2 col_m_2" style="background-color: green;"> Patient Search </a>
+			<input class="col_1 col_m_1" type="number" name="days" value="18" min="1">
+			<span> Days </span>
+			<div class="col_3 col_m_4" style="padding: 0px;">
+				<button class="but1"> <u> R</u>efresh </button>
+				<button> <u> U</u>ndo Sample Collection </button>
+			</div>
+			<div class="col_10 col_m_4 firstInnerDiv">
+				<span class="col_2 col_m_4"> Hospital No. <p> 228840 </p></span>
+				<span class="col_3 col_m_4"> Name: <p> ANITA K C PANTA </p></span>
+				<span class="col_3 col_m_4"> Age/Sex: <p> 55 Y /FEMALE </p></span>
+				<span class="col_3 col_m_4"> Address: <p> MAKWANPUR </p></span>
+				<span class="col_3 col_m_4"> Contact No.: <p> 9841304148 </p></span>
+				<span class="col_3 col_m_4"> Mobile No.: </span>
+				<span class="col_3 col_m_4"> Bill No.: <p> CS73/74-0016714 </p></span>
+			</div>
+			<div class="col_5 col_m_4 secondInnerDiv">
+				<a> Bill List </a>
+				<div>
+					<table>
+						<tr>
+							<th> </th>
+							<th> Date </th>
+							<th> Bill No. </th>
+						</tr>
+						<tr>
+							<td> &#10148 </td>
+							<td> 2073/04/17 </td>
+							<td> CS73/74-0016714 </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col_3 col_m_3 thirdInnerDiv">
+				<a> Sample No List </a>
+				<div>
+					<table>
+						<tr>
+							<th> </th>
+							<th> Sample No. </th>
+							<th> Sample Taken Time </th>
+						</tr>
+						<tr>
+							<td> &#10148 </td>
+							<td>  </td>
+							<td>  </td>
+						</tr>
+					</table>
+				</div>
+				<p> Lab No. <input type="text" name="lab_number" size="10"></p>
+				<p> Include previous colln No. <input type="text" name="lab_number" size="10"></p>
+			</div>
+			
+			<div class="col_5 col_m_4 secondInnerDiv">
+				<a> Test Name </a>
+				<div>
+					<i class="fa fa-check-square-o fa-lg"></i>BLOOD SUGAR - PP
+				</div>
+			</div>
+			<div class="col_5 col_m_4 secondInnerDiv">
+				<a> Collected Sample </a>
+				<div></div>
+			</div>
+			<div class="col_5 col_m_4 lastDiv">
+				<span> Sample Remarks : <input type="text" name="sample_remarks"> </span>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
